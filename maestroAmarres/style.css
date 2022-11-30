@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+body {
+    min-height: 600px;
+}
+
 header {
     border: 5px solid #000;
     background-color: #15130e;
@@ -27,15 +31,17 @@ nav a.info {
     padding: 15px;
     margin-left: 80px;
     text-decoration: none;
+
 }
 
 nav a.whatsapp {
     display: inline-block;
     background: url(img/whatsapp.png) no-repeat center;
     background-size: contain;
-    margin: 0 20px;
-    height: 70px;
-    width: 70px;
+    margin-left: 20px;
+    margin-top: 15px;
+    height: 71px;
+    width: 71px;
 }
 /* RESPONSIVE */
 /*@media (max-width: 1024px) {
